@@ -11,17 +11,4 @@ public class Die {
     public Die(int value) {         //Konstruktor används bara i test, ej i spel.
         faceValue = value;
     }
-
-/*    public int DieRoll() {
-        value = (int)(Math.random()*6+1);
-        return value;
-    }
-
-    public int DieReroll() {
-        return DieRoll();
-    }
-
-    public String getString() {
-        return "Dice shows " + value;
-    }*/
 }
