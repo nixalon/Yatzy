@@ -5,7 +5,6 @@ public class Die {
 
     public Die() {
         faceValue = (int)(Math.random()*6+1);
-        //faceValue = 1;
     }
 
     public Die(int value) {         //Konstruktor används bara i test, ej i spel.
